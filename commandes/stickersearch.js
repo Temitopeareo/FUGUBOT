@@ -33,7 +33,7 @@ async (dest, zk, commandeOptions) => {
 
     const stickerMess = new Sticker(gifUrl, {
       pack: packname,
-      author: 'MEGATRON-BOT',
+      author: 'FUGU-BOT',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
