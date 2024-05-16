@@ -41,11 +41,11 @@ zokou (
                 }
 
             } else {
-                repondre('𝒕𝒉𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 𝒐𝒏𝒍𝒚 𝒘𝒐𝒓𝒌𝒔 𝒘𝒊𝒕𝒉 𝒂𝒖𝒅𝒊𝒐 𝒎𝒆𝒔𝒔𝒂𝒈𝒆𝒔')
+                repondre('the command only work with audio message')
             }
 
         } else {
-            repondre('𝑷𝒍𝒆𝒂𝒔𝒆 𝒎𝒆𝒏𝒕𝒊𝒐𝒏 𝒂𝒏 𝒂𝒖𝒅𝒊𝒐')
+            repondre('please mention an audio')
         }
     }
 );
