@@ -43,7 +43,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────𖤍 𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐁𝐎𝐓 𖤍────◆
+╭────𖤍 FUGU BOT 𖤍────◆
 │𖤍 *Préfix* : ${s.PREFIXE}
 │𖤍 *User* : ${s.OWNER_NAME}
 │𖤍 *Mode* : ${mode}
@@ -53,11 +53,11 @@ const date = moment().format('DD/MM/YYYY');
 │𖤍 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │𖤍 *Platform* : Linux 
 │𖤍 *Uptime*: ${runtime(process.uptime())}
-╰─────✞🩸𝐊𝚰𝚳𝚳𝐘𓃵𖤍🔥³¹⁶─────◆ \n\n`;
+╰─────✞ABROTECH─────◆ \n\n`;
 
   let menuMsg=`  
 
-* 𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 :*
+* FUGU COMMANDS :*
 ◇                             ◇
 `;
 
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *𖤍 ༒𝐃𝚫𝚳𝚯𝚴𖤍༒³¹⁶*                                         
+  *𖤍POWER BY ABRO TECH*                                         
 *╰═════════════⊷*
 `;
 
