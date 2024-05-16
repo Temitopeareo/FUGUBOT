@@ -87,7 +87,7 @@ fs.unlinkSync(medis)
         type = 'not animated sticker'
       }
 
-      let msg = `   Megatron-stickers-dl
+      let msg = `   Fugu-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -110,7 +110,7 @@ fs.unlinkSync(medis)
 
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "༒𝐃𝚫𝚳𝚯𝚴𖤍༒",
+            author: "FUGU",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -527,7 +527,7 @@ zokou({ nomCom: "save", categorie: "OWNER" }, async (dest, zk, commandeOptions) 
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
           let stickerMess = new Sticker(media, {
-            pack: '𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓',
+            pack: 'FUGU-𝐁𝐎𝐓',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
