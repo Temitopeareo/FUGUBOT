@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *𝑴𝑬𝑮𝑨𝑻𝑹𝑶𝑵-𝑩𝑶𝑻 𝒃𝒚 𝑫𝒂𝒎𝒐𝒏 𝒊𝒔 𝒂𝒍𝒊𝒗𝒆*`
+ *FUGU-𝑩𝑶𝑻 𝒃𝒚 ABRO 𝒊𝒔 𝒂𝒍𝒊𝒗𝒆*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -78,7 +78,7 @@ else {
      }
  } else {
 
-    if(!superUser) { repondre ("𝑶𝒏𝒍𝒚 𝒕𝒉𝒆 𝒐𝒘𝒏𝒆𝒓 𝒄𝒂𝒏  𝒎𝒐𝒅𝒊𝒇𝒚 𝒕𝒉𝒆 𝒂𝒍𝒊𝒗𝒆") ; return};
+    if(!superUser) { repondre ("only the owner of FUGUBOT can edit alive") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
