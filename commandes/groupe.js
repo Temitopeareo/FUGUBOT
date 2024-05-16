@@ -31,7 +31,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        ✞ *MEGATRON-BOT* ✞
+        ✞ *FUGU-BOT* ✞
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -121,7 +121,7 @@ zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, as
         if (zkad) {
           if (membre) {
             if (admin == false) {
-              var txt = `🎊🍾  @${auteurMsgRepondu.split("@")[0]} Has been promoted as a group Admin by 𝛫𝛪𝛭𝛭𝑌.`
+              var txt = `🎊🍾  @${auteurMsgRepondu.split("@")[0]} Has been promoted as a group Admin by ABRO.`
               await zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "promote");
               zk.sendMessage(dest, { text: txt, mentions: [auteurMsgRepondu] })
             } else { return repondre("This member is already an admin.") }
@@ -193,10 +193,10 @@ zokou({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
 
           } else { return repondre("This user is not part of the group."); }
         }
-        else { return repondre("I am not admin.") }
+        else { return repondre("Ozwo, I am not admin.") }
 
       } else { repondre("please tag the member to be removed"); }
-    } else { return repondre("F*ckin h*e command is for admina.") }
+    } else { return repondre("F*ckin h*e command is for admin.") }
   } catch (e) { repondre("oups " + e) }
 
 })
@@ -250,7 +250,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: '༒𝐃𝚫𝚳𝚯𝚴𖤍༒', // The pack name
+                pack: 'ABRO', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -291,7 +291,7 @@ zokou({ nomCom: "add", categorie: 'Group', reaction: "👨🏿‍💼" }, async 
 		const isImAdmin = await isAdmin(participants, message.client.user.jid)
 		if (!isImAdmin) return await message.send(`_I'm not admin._`)
 		match = match || message.reply_message.jid
-		if (!match) return await message.send('Example : add 254790593618')
+		if (!match) return await message.send('Example : add 2348100151048')
 		// if (!match.startsWith('@@')) {
 		// 	match = jidToNum(match)
 		// 	const button = await genButtonMessage(
@@ -698,7 +698,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: '༒𝐃𝚫𝚳𝚯𝚴𖤍༒-tag',
+          pack: 'ABRO-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
