@@ -70,7 +70,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"༒𝐃𝚫𝚳𝚯𝚴𖤍༒",
+      pack:"ABRO",
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -94,7 +94,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"༒𝐃𝚫𝚳𝚯𝚴𖤍༒", // pack stick
+      pack:"ABRO", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -150,7 +150,7 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
      let stickerMess = new Sticker(stick, {
-            pack: '༒𝐃𝚫𝚳𝚯𝚴𖤍༒',
+            pack: 'ABRO',
             
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
@@ -252,7 +252,7 @@ zokou({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" },
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: '𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐁𝐎𝐓',
+      author: 'FUGU 𝐁𝐎𝐓',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
@@ -333,13 +333,13 @@ zokou({ nomCom: "trt", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
 
         } catch (error) {
           
-          repondre('Mention a texte Message') ;
+          repondre('Mention a text Message') ;
       
         }
 
    } else {
      
-     repondre('Mention a texte Message')
+     repondre('Mention a text Message')
    }
 
 
@@ -362,7 +362,7 @@ zokou({ nomCom: "url", categorie: "General", reaction: "👨🏿‍💻" }, asyn
   } else if (msgRepondu.imageMessage) {
       mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage);
   } else {
-      repondre('mention a image or video');
+      repondre('mention image or video');
       return;
   }
 
