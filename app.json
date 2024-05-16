@@ -1,9 +1,9 @@
 {
-  "name":"MEGATRON-BOT",
-  "description":"An easy and simple WhatsApp bot With over 150 features developed by Damon.",
+  "name":"FUGU-BOT",
+  "description":"An easy and simple WhatsApp bot With over 150 features developed by Abro.",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/6965abd5ea26b6cc84a52.jpg",
-  "repository":"https://github.com/Madmkisii/Megatron-Bot",
+  "logo":"https://imgur.com/7doiWDc.jpg",
+  "repository":"https://github.com/Temitopeareo/FUGUBOT",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,20 +35,20 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"MEGATRON-BOT",
+      "value":"FUGU-BOT",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/6c25ba8205452781b7734.jpg",
+      "value":"https://imgur.com/7doiWDc.jpg",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
-      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "description":"type yes to put your bot on public mode or no to put it on private mode",
       "value":"yes",
       "required":false
     }
@@ -74,24 +74,24 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Damon"
+    "value": "ABROTECH"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254790593618"
+    "value": "2348100151048"
   },
     "WARN_COUNT":
   {
-    "desc": "this is the limit of warn for warning commandes",
+    "desc": "this is the limit of warn for warning commands",
     "required": false,
     "value": "3"
   },
   "STARTING_BOT_MESSAGE":
   {
-    "description": "if you don't want startting-bot-message put no else put yes",
+    "description": "if you don't want starting-bot-message put no else put yes",
     "required": true,
     "value": "yes"
   },
